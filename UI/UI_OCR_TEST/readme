@@ -1,0 +1,10 @@
+Dummy folder for temporary files
+Assuming pytesseract and opencv is installed and first time using pyqt5
+
+pip install PyQt5
+pip install PyQt5-tools
+pip install pywin32
+pip install pyinstaller 
+
+Then run
+python ocr_ui_test.py

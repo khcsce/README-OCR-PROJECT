@@ -1,0 +1,13 @@
+All Files use paho.mqtt which can be downloaded with pip install paho-mqtt
+
+Gesture control publisher and subscriber: Sends a text stream to user
+Text publisher and subscriber: Send text between 2 users. 
+
+To use run start the subscriber then the publisher to send data between. 
+
+
+Future improvements: Going to replace this with a TCP/IP socket to send the image taken not the OCR text in the future. 
+
+Sources: 
+https://github.com/krylovsk/mqtt-benchmark
+

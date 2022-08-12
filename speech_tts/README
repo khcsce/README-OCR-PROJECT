@@ -1,0 +1,22 @@
+# speech_tts
+
+tts1.py --- takes a text file input, and tts is used to read the text out or pause, stop, etc. Primarily used for testing.
+
+Example: 
+  `python tts1.py sample.txt` where sample.txt is a text file
+
+text_subscriber.py --- tts and MQTT integration, OCR translated text is sent as txt file, and user can use speech commands to read them out , pause, stop, etc.
+
+Bugs: OCR translated text sent includes extra characters that when read out is confusing, as the text is of forms such as \n \e, etc
+Need to refactor text_subscriber.py such that it imports functions from tts1.py instead of copy-pasting from tts1.py into text_subscriber.py
+
+Sources: 
+https://pypi.org/project/pyttsx3/
+https://www.pygame.org/docs/
+https://stackoverflow.com/questions/65730317/how-to-pause-resume-and-stop-pyttsx3-from-speaking
+https://github.com/Uberi/speech_recognition
+
+Testing Code Sources: 
+https://docs.python.org/3/library/timeit.html
+https://stackoverflow.com/questions/24812253/how-can-i-capture-return-value-with-python-timeit-module
+https://www.lipsum.com/

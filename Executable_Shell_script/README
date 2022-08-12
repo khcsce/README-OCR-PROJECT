@@ -1,0 +1,3 @@
+input 0 to install EX: ./run.sh 0
+input 1 to just run code 
+input 2 to install then run code 
